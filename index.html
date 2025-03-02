@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapan Sinha - Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1c1c3c, #3a3a6e);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background: #2b2b52;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+            transition: all 0.3s ease-in-out;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #fdfdfd;
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #d1d5db;
+        }
+        .section {
+            background: #40407a;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+        }
+        .section:hover {
+            transform: translateY(-10px);
+            background: #575fcf;
+        }
+        h2 {
+            font-size: 2.2rem;
+            color: #fdfdfd;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+        }
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid #6c6cff;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skill {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+        .skill:hover {
+            transform: scale(1.1);
+            background: linear-gradient(135deg, #2575fc, #6a11cb);
+        }
+        .contact {
+            background: #1c1c3c;
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .contact a {
+            color: #6a11cb;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: color 0.3s ease-in-out;
+        }
+        .contact a:hover {
+            color: #fdfdfd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sapan Sinha</h1>
+            <p>Plant Manager at Shapoorji Pallonji, Amritsar</p>
+            <p>Originally from Jamui, Bihar</p>
+        </header>
+
+        <section class="section">
+            <h2>About Me</h2>
+            <p>I am an experienced Plant Manager currently working at Shapoorji Pallonji in Amritsar. With a strong background in plant operations and site management, I have previously served as a Site Incharge at Vatech Wabag and as a Hub Manager at Thermax. I am passionate about efficient management and continuous improvement in industrial processes.</p>
+        </section>
+
+        <section class="section">
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Plant Manager</strong> - Shapoorji Pallonji, Amritsar</li>
+                <li><strong>Site Incharge</strong> - Vatech Wabag</li>
+                <li><strong>Hub Manager</strong> - Thermax</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">Plant Management</div>
+                <div class="skill">Site Supervision</div>
+                <div class="skill">Team Leadership</div>
+                <div class="skill">Process Improvement</div>
+                <div class="skill">Project Coordination</div>
+                <div class="skill">Communication</div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Phone: <a href="tel:+919534316668">9534316668</a></p>
+            <p>Email: ksapansinha@gmail.com</p>
+        </section>
+    </div>
+</body>
+</html>
